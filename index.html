@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fallou Tall — Développeur Fullstack</title>
+<meta name="description" content="Portfolio de Fallou Tall, développeur fullstack à Dakar — AgriBridge, SIRH, architectures microservices et projets académiques.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-mark" href="#top">Fallou Tall</a>
+    <ul class="nav-links">
+      <li><a href="#agribridge">AgriBridge</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Dakar, Sénégal</p>
+      <h1>Je construis des plateformes qui tiennent la route en production, pas seulement sur un tableau blanc.</h1>
+      <p class="hero-lede">Développeur fullstack sorti du Master 2 Systèmes d'Information Répartis (UCAD). J'ai passé la dernière année à faire vivre AgriBridge — une plateforme microservices pour la chaîne de valeur agricole en Afrique de l'Ouest — du modèle de données jusqu'au cluster Kubernetes qui la fait tourner.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#agribridge">Voir AgriBridge</a>
+        <a class="btn btn-ghost" href="mailto:tallfal2000@gmail.com">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-frame">
+      <img src="assets/img/dashboard.png" alt="Tableau de bord AgriBridge affichant les offres, revenus et une alerte de pénurie régionale" loading="eager">
+      <div class="tag">Tableau de bord producteur — AgriBridge</div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <div>
+      <p class="hero-eyebrow">À propos</p>
+      <h2 style="font-size:1.9rem; margin-bottom:18px;">Du monolithe aux microservices, en passant par le terrain</h2>
+      <p>Je viens du Sénégal et je conçois des systèmes pensés pour des contraintes réelles : connexions intermittentes, paiement mobile money, contenus multilingues. AgriBridge, le sujet de mon mémoire de Master 2, est né de cette approche — une marketplace agricole qui connecte producteurs, acheteurs, transporteurs et experts, avec diagnostic des maladies par IA et suivi logistique GPS.</p>
+      <p>À côté, j'ai construit et comparé plusieurs architectures (monolithique vs microservices), un SIRH complet pour la gestion RH, et plusieurs projets académiques en ML, big data et développement mobile.</p>
+    </div>
+    <ul class="about-facts">
+      <li><span class="k">Formation</span><span>Master 2 Systèmes d'Information Répartis — UCAD</span></li>
+      <li><span class="k">Basé à</span><span>Dakar, Sénégal</span></li>
+      <li><span class="k">Stack cœur</span><span>Django REST Framework, Angular, Flutter, Spring Boot</span></li>
+      <li><span class="k">Terrain</span><span>Sénégal &amp; Afrique de l'Ouest — agritech, mobile money, multilingue</span></li>
+      <li><span class="k">GitHub</span><span><a href="https://github.com/Fallou30" target="_blank" rel="noopener">github.com/Fallou30</a></span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="agribridge">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Projets phares</h2>
+      <span class="count">2 projets détaillés</span>
+    </div>
+
+    <article class="feature">
+      <div class="feature-top">
+        <div>
+          <p class="feature-kicker">Mémoire de Master 2 — 2025–2026</p>
+          <h3>AgriBridge</h3>
+        </div>
+        <div class="feature-links">
+          <a class="pill live" href="https://agribridge-web.pages.dev/login?returnUrl=%2Fdashboard" target="_blank" rel="noopener">Démo en ligne</a>
+          <span class="pill private">Code privé</span>
+        </div>
+      </div>
+      <p class="feature-desc">Une plateforme digitale intégrée pour la chaîne de valeur agricole : marketplace, conseils agricoles, diagnostic des maladies par machine learning, logistique et paiement mobile money. Elle connecte producteurs, acheteurs, transporteurs et coopératives au Sénégal et dans la région ECOWAS, en quatre langues.</p>
+
+      <div class="feature-meta">
+        <div><div class="k">Architecture</div><div class="v">14 microservices Django REST, API Gateway Kong, événements Kafka</div></div>
+        <div><div class="k">Données</div><div class="v">PostgreSQL, MongoDB, Redis, MinIO — bases polyglottes</div></div>
+        <div><div class="k">Clients</div><div class="v">Web Angular (signals) + mobile Flutter/BLoC, FR/EN/PT/AR</div></div>
+        <div><div class="k">Déploiement</div><div class="v">Docker, Kubernetes (k3s) sur OVH, CI/CD GitHub Actions</div></div>
+        <div><div class="k">Encadrement</div><div class="v">Dr. Ndiouma Bame — UCAD</div></div>
+        <div><div class="k">Durée</div><div class="v">Effort continu sur plus d'un an</div></div>
+      </div>
+
+      <div class="gallery">
+        <figure>
+          <a href="assets/img/dashboard.png" target="_blank" rel="noopener">
+            <img src="assets/img/dashboard.png" alt="Tableau de bord producteur avec alerte de pénurie" loading="lazy">
+          </a>
+          <figcaption>Tableau de bord producteur</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/img/gps-tracking.png" target="_blank" rel="noopener">
+            <img src="assets/img/gps-tracking.png" alt="Suivi GPS temps réel d'une livraison" loading="lazy">
+          </a>
+          <figcaption>Suivi GPS en temps réel</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/img/transporteurs.png" target="_blank" rel="noopener">
+            <img src="assets/img/transporteurs.png" alt="Liste des transporteurs disponibles avec filtres" loading="lazy">
+          </a>
+          <figcaption>Marketplace transporteurs</figcaption>
+        </figure>
+        <figure>
+          <a href="assets/img/diagnostic-ia.png" target="_blank" rel="noopener">
+            <img src="assets/img/diagnostic-ia.png" alt="Formulaire de soumission d'une photo pour diagnostic IA" loading="lazy">
+          </a>
+          <figcaption>Diagnostic des cultures par IA</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div class="feature-top">
+        <div>
+          <p class="feature-kicker">Projet d'entreprise</p>
+          <h3>SIRH — Ressources Humaines</h3>
+        </div>
+        <div class="feature-links">
+          <span class="pill private">Code privé</span>
+        </div>
+      </div>
+      <p class="feature-desc">Une plateforme centralisée de gestion des ressources humaines construite à partir d'un cahier des charges complet : utilisateurs et rôles, fiches employés, workflow de validation des absences, tableau de bord KPI et audit de traçabilité — avec authentification centralisée et conformité RGPD en tête.</p>
+
+      <div class="feature-meta">
+        <div><div class="k">Backend</div><div class="v">Django + Django REST Framework, PostgreSQL</div></div>
+        <div><div class="k">Auth</div><div class="v">Keycloak — SSO, RBAC fin par rôle (DG, DAF, Manager, Employé…)</div></div>
+        <div><div class="k">Workflow</div><div class="v">Demandes d'absence avec validation, notifications, escalade automatique</div></div>
+        <div><div class="k">Pilotage</div><div class="v">KPI RH : absentéisme, effectifs, taux de validation, export PDF/Excel</div></div>
+        <div><div class="k">Déploiement</div><div class="v">Docker, interface responsive, FR/EN</div></div>
+        <div><div class="k">Conformité</div><div class="v">Journal d'audit, chiffrement des données sensibles, RGPD</div></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="projets">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Autres projets</h2>
+      <span class="count">Académiques &amp; personnels</span>
+    </div>
+
+    <div class="plist">
+      <div class="plist-group">
+        <h3>Architecture &amp; backend</h3>
+        <div class="prow">
+          <div>
+            <span class="prow-name">Gestion de rendez-vous médicaux — microservices</span>
+            <span class="prow-desc">Patients, médecins, rendez-vous et authentification découplés, API Gateway, SSO Keycloak (JWT).</span>
+          </div>
+          <span class="prow-stack">Spring Boot · Spring Cloud · Keycloak · Docker</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/gestion-rendez-vous-medical" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="prow">
+          <div>
+            <span class="prow-name">Gestion de rendez-vous médicaux — monolithique</span>
+            <span class="prow-desc">La même application développée en architecture monolithique, pour comparaison directe des deux approches.</span>
+          </div>
+          <span class="prow-stack">Spring Boot · Angular · Keycloak</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/gestion-rendez-vous-monilitique" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="prow">
+          <div>
+            <span class="prow-name">Refactoring e-commerce vers microservices</span>
+            <span class="prow-desc">Migration d'un monolithe vers des services indépendants : produits, ventes, paiements, panier.</span>
+          </div>
+          <span class="prow-stack">Java · Spring Boot · Docker</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/Micro-E-Commerce" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="plist-group">
+        <h3>IoT &amp; données</h3>
+        <div class="prow">
+          <div>
+            <span class="prow-name">SmartAgriSense — irrigation intelligente</span>
+            <span class="prow-desc">Projet de fin de licence : réseau de capteurs sol/eau, alertes automatiques, plateforme IoT distribuée.</span>
+          </div>
+          <span class="prow-stack">Arduino/ESP8266 · ThingsBoard · SMTP</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/SmartAgriSense" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="prow">
+          <div>
+            <span class="prow-name">Analyse de données avec PySpark</span>
+            <span class="prow-desc">DataFrames et requêtes SQL complexes sur un cluster Docker pour de grands volumes de données.</span>
+          </div>
+          <span class="prow-stack">PySpark · Spark SQL · MySQL</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/BigdataSpark" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="prow">
+          <div>
+            <span class="prow-name">API de diagnostic médical</span>
+            <span class="prow-desc">Prédiction du risque de cancer du sein et de diabète via deux algorithmes de classification.</span>
+          </div>
+          <span class="prow-stack">Python · Scikit-learn · Django</span>
+          <span class="prow-link inactive">Code privé</span>
+        </div>
+      </div>
+
+      <div class="plist-group">
+        <h3>Mobile &amp; desktop</h3>
+        <div class="prow">
+          <div>
+            <span class="prow-name">Application mobile de gestion de films</span>
+            <span class="prow-desc">Discovery et listes de films avec mode hors ligne, recherche avancée, bandes-annonces.</span>
+          </div>
+          <span class="prow-stack">Flutter · Provider · API TMDb</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/movie-app-flutter" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="prow">
+          <div>
+            <span class="prow-name">Gestion de commandes — desktop &amp; web</span>
+            <span class="prow-desc">CRUD complet sur la base Northwind, client desktop et interface web côte à côte.</span>
+          </div>
+          <span class="prow-stack">C# · .NET · WPF · ASP.NET Core MVC</span>
+          <a class="prow-link active" href="https://github.com/Fallou30/gestion-commande-wfp" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="prow">
+          <div>
+            <span class="prow-name">School Manager — module de gestion scolaire</span>
+            <span class="prow-desc">Module Odoo personnalisé : enseignants, étudiants, classes, notes, import XML des données initiales.</span>
+          </div>
+          <span class="prow-stack">Odoo · Python · XML</span>
+          <span class="prow-link inactive">Code privé</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="competences">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Compétences</h2>
+      <span class="count">Ce que j'utilise le plus souvent</span>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-col">
+        <h3>Backend</h3>
+        <ul>
+          <li><b>Django</b> / Django REST Framework</li>
+          <li><b>Spring Boot</b> / Spring Cloud</li>
+          <li>PHP</li>
+          <li>APIs REST, architectures microservices</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Frontend &amp; mobile</h3>
+        <ul>
+          <li><b>Angular</b> (signals)</li>
+          <li><b>Flutter</b> / Dart (BLoC, Provider)</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Données</h3>
+        <ul>
+          <li>PostgreSQL, MySQL, Oracle, SQL Server</li>
+          <li>MongoDB, Redis, MinIO</li>
+          <li>Spark / PySpark</li>
+          <li>Power BI, SSIS/SSRS</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Infra &amp; outils</h3>
+        <ul>
+          <li>Docker, Kubernetes (k3s)</li>
+          <li>Kong, Kafka</li>
+          <li>Keycloak (SSO, RBAC)</li>
+          <li>Git, GitHub Actions</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="formation">
+  <div class="wrap formation">
+    <div>
+      <p class="hero-eyebrow">Parcours</p>
+      <h2 style="font-size:1.9rem; margin-bottom:18px;">Formation</h2>
+      <ul class="timeline">
+        <li><span class="y">2024 – 2025</span><div class="t">Master 2, Systèmes d'Information Répartis — UCAD</div></li>
+        <li><span class="y">2023 – 2024</span><div class="t">Master 1 Informatique — UCAD</div></li>
+        <li><span class="y">Mai 2024</span><div class="t">Licence Informatique — UCAD</div></li>
+        <li><span class="y">2019 – 2020</span><div class="t">Baccalauréat série S2 — Lycée Serigne Amadou Cissé de Pire</div></li>
+      </ul>
+    </div>
+    <div>
+      <p class="hero-eyebrow">Langues</p>
+      <h2 style="font-size:1.9rem; margin-bottom:18px;">Langues</h2>
+      <ul class="timeline">
+        <li><span class="y">Natif</span><div class="t">Français</div></li>
+        <li><span class="y">Intermédiaire (B2)</span><div class="t">Anglais</div></li>
+        <li><span class="y">Notions</span><div class="t">Espagnol</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <p class="hero-eyebrow">Contact</p>
+    <h2>Discutons de votre prochain projet.</h2>
+    <div class="contact-row">
+      <div class="contact-item">
+        <div class="k">Email</div>
+        <a href="mailto:tallfal2000@gmail.com">tallfal2000@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <div class="k">Téléphone</div>
+        <a href="tel:+221785464650">+221 78 546 46 50</a>
+      </div>
+      <div class="contact-item">
+        <div class="k">GitHub</div>
+        <a href="https://github.com/Fallou30" target="_blank" rel="noopener">github.com/Fallou30</a>
+      </div>
+      <div class="contact-item">
+        <div class="k">Localisation</div>
+        <span>Nord-Foire, Dakar, Sénégal</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <span>Fallou Tall — Dakar, Sénégal</span>
+  <span>Construit à la main, sans framework.</span>
+</footer>
+
+</body>
+</html>
